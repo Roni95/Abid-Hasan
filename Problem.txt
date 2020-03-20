@@ -1,0 +1,8 @@
+1. Create a class to print an integer and a character with two methods having the same name but different sequence of the integer and the character parameters . 
+	For example , if the parameters of the method are of the form (int n ,char c ) , then that of the second ,method will be of the form (char c ,int n)
+
+2. Create a class to print the area of a square and a rectangle . The class has two methods with the same name but different number of parameters which are length and breadth respectively while the other method for printing area of square has one parameter which is side of a square .
+
+3. Create a class "student" with three data members which are name ,age and address . The constructor of the class aggigns default values name as "unknown" age as '0' and address as "not available " . It has tow member with same name "netinfo". First method has two parameters for name and age and assign the same whereas the second method takes has three parameters which are assigned to name ,age, and address respectively . Print the name age and address of three students .
+
+4. Create a class to print the sum of number . The class has two methods with same name but different number of parameter . The method of printing sum has two integer parameter whereas another method has three integers parameters .
