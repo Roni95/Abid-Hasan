@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>
+        Number Convertion
+    </title>
+    <script src="js/myscripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+
+
+</head>
+<!-- create table -->
+<body bgcolor="yellow" >
+    <div class = title >Number Convertion System <br>By Roni-Tech</div>
+    <div  class = Decimal>
+        <b>Enter a Hexa-Decimal Number :</b>
+    </div>
+    <table>
+        <tr>
+			<td colspan="4"><input type="text" id="result"/></td>
+			<td><input type="button" value="c" onclick="clr()"/> </td>
+		</tr>
+		<tr>
+			<!-- create button and assign value to each button -->
+			<!-- dis("1") will call function dis to display value -->
+			<td><input type="button" value="1" onclick="dis('1')"/> </td>
+			<td><input type="button" value="2" onclick="dis('2')"/> </td>
+            <td><input type="button" value="3" onclick="dis('3')"/> </td>
+            <td><input type="button" value="4" onclick="dis('4')"/> </td>
+			<td><input type="button" value="5" onclick="dis('5')"/> </td>
+		</tr>
+		<tr>
+			
+			<td><input type="button" value="6" onclick="dis('6')"/> </td>
+			<td><input type="button" value="7" onclick="dis('7')"/> </td>
+			<td><input type="button" value="8" onclick="dis('8')"/> </td>
+            <td><input type="button" value="9" onclick="dis('9')"/> </td>
+            <td><input type="button" value="0" onclick="dis('0')"/> </td>
+        </tr>
+		<tr>
+			
+			<td><input type="button" value="A" onclick="dis('A')"/> </td>
+			<td><input type="button" value="B" onclick="dis('B')"/> </td>
+			<td><input type="button" value="C" onclick="dis('C')"/> </td>
+            <td><input type="button" value="D" onclick="dis('D')"/> </td>
+            <td><input type="button" value="E" onclick="dis('E')"/> </td>
+            <td><input type="button" value="F" onclick="dis('F')"/> </td>
+
+		</tr>
+    </table>
+    <input type="button" id="venom" value="Convert to Octal" onclick="HtoO()"/>
+    <br>
+    <div  class = Decimal>
+        <b>Equivalent Octal Number is :</b>
+    </div>
+    <input type="solve" id="solution"/>
+    <br>
+    <br>
+    <a href="index.html">
+        <button>
+            <div  class = display>
+                Back To Main Page
+            </div>
+        </button>
+    </a>
+    <br>  
+</body>
+</html>
